@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            span {
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__logo {
+            width: 250px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            margin-top: 4px;
+        }
+    }
+}
