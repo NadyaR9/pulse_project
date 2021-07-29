@@ -28,12 +28,16 @@
 @media (max-width: 575px) {
     .catalog {
         &__tab {   
-            width: 120px;
+            width: 100px;
             height: 30px;
-            font-size: 12px;
+            font-size: 11px;
             line-height: 28px;
+            padding-left: 0;
+            margin-left: 0;
         }
         &__tabs {
+            padding-left: 0;
+            margin-left: 0;
             margin: 26px 0 34px 0;
         }
     } 
