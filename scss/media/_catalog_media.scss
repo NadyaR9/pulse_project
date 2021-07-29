@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
+    .catalog-item {
+        margin: 10px 10px;
+    }
+}
+@media (max-width: 991px) {
+ 
+}
+
+@media (max-width: 767px) {
+    .catalog {
+        &__tab {   
+            width: 150px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 38px;
+        }
+        &__tabs {
+            margin: 36px 0 44px 0;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .catalog {
+        &__tab {   
+            width: 120px;
+            height: 30px;
+            font-size: 12px;
+            line-height: 28px;
+        }
+        &__tabs {
+            margin: 26px 0 34px 0;
+        }
+    } 
+}
