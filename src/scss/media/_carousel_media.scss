@@ -40,7 +40,8 @@
 }
 
 @media (max-width: 575px) {
-    .carousel {       
+    .carousel {    
+        padding: 40px 0;   
         &__inner {
             width: 250px;
         }
